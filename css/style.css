@@ -1,8 +1,24 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.alert-container {
+.container-wrapper {
 
+}
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+    font
+}
+.alert-container .col-12 {
+    /* display: none; */
+    padding: 0;
+}
+.site-wide-alert {
+    background-color: #f9ca34;
+    border-color: #f9ca34;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
 }
 .callout-container {
     background: url(../images/whiskey-background.jpg) no-repeat center center fixed;
@@ -29,8 +45,18 @@ body {
 .features-container {
 
 }
+/* Page headers */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2 {
+    margin-top: 0;
+}
 /* Block Dividers */
 .block-divider {
+    background-color: #444;
     width: 75px;
     height: 5px;
     border: none;
@@ -40,6 +66,35 @@ body {
 }
 .block-divider--short {
     width: 35px;
+}
+/* Content containers */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+/* NavBar */
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 100;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-nav {
+    font-weight: bold;
 }
 /* Jumbotron */
 .jumbotron {
