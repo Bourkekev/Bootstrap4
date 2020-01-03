@@ -54,6 +54,9 @@ body {
 .page-header h2 {
     margin-top: 0;
 }
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 /* Block Dividers */
 .block-divider {
     background-color: #444;
@@ -63,6 +66,9 @@ body {
 }
 .block-divider--orange {
     background: #b67404;
+}
+.block-divider--white {
+    background: #fff;
 }
 .block-divider--short {
     width: 35px;
@@ -133,7 +139,24 @@ body {
     background-color: #d24b2d;
     border-color: #d24b2d;
 }
-
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
 /* @media (min-width:576px){
     .container{max-width:540px}
     }
